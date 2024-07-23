@@ -1,0 +1,72 @@
+.header {
+    height: 218px;
+}
+
+.header__title {
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 54px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.navigation {
+
+}
+
+.navigation__list {
+    display: flex;
+    align-items: center;
+}
+
+.navigation__item {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 1.8px;
+}
+
+.navigation__item:first-child {
+    margin-left: 367px;
+}
+
+.navigation__item:nth-child(2) {
+    margin-left: 55px;
+}
+
+.navigation__item:nth-child(3) {
+    margin-left: 54px;
+}
+
+.navigation__item:nth-child(4) {
+    margin-left: 52px;
+}
+
+.navigation__item:nth-child(5) {
+    margin-left: 52px;
+}
+
+.navigation__item:nth-child(6) {
+    margin-left: 55px;
+}
+
+.navigation__item:nth-child(7) {
+    margin-left: 51px;
+}
+
+.navigation__item:nth-child(8) {
+    margin-left: 53px;
+}
+
+.navigation__item:nth-child(9) {
+    margin-left: 53px;
+}
+
+.navigation__item-link {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+}
