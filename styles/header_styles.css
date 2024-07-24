@@ -1,5 +1,5 @@
 .header {
-    height: 218px;
+    height: 152px;
 }
 
 .header__title {
@@ -11,10 +11,6 @@
     margin-bottom: 54px;
     letter-spacing: 1px;
     color: #000000;
-}
-
-.navigation {
-
 }
 
 .navigation__list {
