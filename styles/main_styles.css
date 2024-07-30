@@ -8,8 +8,8 @@
     background-size: contain;
     background-repeat: no-repeat;
 
-    height: 464px;
-    width: 1450px;
+    width: 100%;
+    aspect-ratio: 90 / 29;
     margin: 0 auto;
     color: #FFFFFF;
 }
