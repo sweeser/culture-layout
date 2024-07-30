@@ -74,7 +74,7 @@
     font-size: 23px;
     font-weight: 1000;
     color: #000000;
-    margin-bottom: 14px;
+    margin-bottom: 13px;
 }
 
 .reviews__item-description {
@@ -92,4 +92,77 @@
 
 .reviews__item-link--active {
     color: #FF7931;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 52px;
+    padding-top:36px;
+    padding-bottom:36px;
+    background-color: #F7F7F7;
+    background-image: url(../images/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.service__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 2.2px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.service__list {
+    max-width: 370px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.service__item {
+    margin-bottom: 51px;
+}
+
+.service__item:last-child {
+    margin-bottom: 0;
+}
+
+.service__item-title {
+    font-family: "Playfair Display", serif;
+    font-size: 23px;
+    font-weight: 1000;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.service__item-description {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.service__button {
+    height: 47px;
+    width: 170px;
+    background-color: #FF7931;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.service__button-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
