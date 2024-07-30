@@ -125,7 +125,7 @@
 }
 
 .service__item {
-    margin-bottom: 51px;
+    margin-bottom: 27px;
 }
 
 .service__item:last-child {
@@ -146,6 +146,19 @@
     font-weight: 400;
     color: #000000;
     line-height: 1.5;
+    margin-bottom: 23px;
+}
+
+.service__item-description:last-child {
+    margin-bottom: 0;
+}
+
+.service__item-line {
+    background-color: #000000;
+    opacity: 0.2;
+    width: 100px;
+    height: 1px;
+    margin: 0 auto;
 }
 
 .service__button {
