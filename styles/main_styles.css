@@ -1,3 +1,7 @@
+.main {
+    padding-bottom: 50px;
+}
+
 .advertisement {
     display: flex;
     flex-direction: column;
@@ -39,6 +43,7 @@
 
 .reviews {
     padding-top: 41px;
+    padding-bottom: 52px;
 }
 
 .reviews__title {
@@ -57,7 +62,6 @@
     align-items: center;
     margin: 0 auto;
     justify-content: space-between;
-
     max-width: 1168px;
 }
 
@@ -65,11 +69,11 @@
     max-width: 370px;
 }
 
-.reviews__item-image {
+.review__image {
     margin-bottom: 21px;
 }
 
-.reviews__item-title {
+.review__title {
     font-family: "Playfair Display", serif;
     font-size: 23px;
     font-weight: 1000;
@@ -77,20 +81,20 @@
     margin-bottom: 13px;
 }
 
-.reviews__item-description {
-    font-family: "Roboto", serif;
+.review__description {
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 450;
     color: #000000;
     line-height: 1.5;
 }
 
-.reviews__item-link {
+.review__link {
     text-decoration: none;
     color: inherit;
 }
 
-.reviews__item-link--active {
+.review__link--active {
     color: #FF7931;
 }
 
@@ -98,11 +102,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 52px;
     padding-top:36px;
     padding-bottom:36px;
     background-color: #F7F7F7;
-    background-image: url(../images/Ellipse\ 1.png);
+    background-image: url(../images/Ellipse-1.png);
     background-repeat: no-repeat;
     background-position: 50%;
 }
@@ -125,7 +128,18 @@
 }
 
 .service__item {
-    margin-bottom: 51px;
+    margin-bottom: 27px;
+}
+
+.service__item:not(:last-child)::after {
+    content: "";
+    display: block;
+    background-color: #787878;
+    opacity: 0.2;
+    width: 100px;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 23px;
 }
 
 .service__item:last-child {
@@ -146,10 +160,15 @@
     font-weight: 400;
     color: #000000;
     line-height: 1.5;
+    margin-bottom: 23px;
+}
+
+.service__item-description:last-child {
+    margin-bottom: 0;
 }
 
 .service__button {
-    height: 47px;
+    padding: 11px 0;
     width: 170px;
     background-color: #FF7931;
     display: flex;
