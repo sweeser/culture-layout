@@ -1,3 +1,7 @@
+main {
+    padding-bottom: 50px;
+}
+
 .advertisement {
     display: flex;
     flex-direction: column;
@@ -128,6 +132,18 @@
     margin-bottom: 27px;
 }
 
+.service__item:nth-child(1)::after,
+.service__item:nth-child(2)::after {
+    content: "";
+    display: block;
+    background-color: #000000;
+    opacity: 0.2;
+    width: 100px;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+
 .service__item:last-child {
     margin-bottom: 0;
 }
@@ -151,14 +167,6 @@
 
 .service__item-description:last-child {
     margin-bottom: 0;
-}
-
-.service__item-line {
-    background-color: #000000;
-    opacity: 0.2;
-    width: 100px;
-    height: 1px;
-    margin: 0 auto;
 }
 
 .service__button {
