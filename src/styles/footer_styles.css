@@ -56,13 +56,13 @@
 }
 
 .footer__social-link_type_inst {
-    background-image: url(../images/instagram_icon.svg);
+    background-image: url('@/assets/instagram_icon.svg');
 }
 
 .footer__social-link_type_facebook {
-    background-image: url(../images/facebook_icon.svg);
+    background-image: url('@/assets/facebook_icon.svg');
 }
 
 .footer__social-link_type_twitter {
-    background-image: url(../images/twitter_icon.svg);
+    background-image: url('@/assets/twitter_icon.svg');
 }

@@ -1,22 +1,24 @@
-# Новости культуры
+# culture-app
 
-Этот проект представляет собой веб-страницу, посвященную новостям и обзорам в области культуры. Страница содержит разделы с последними новостями, обзорами и рекламными предложениями.
+## Project setup
+```
+npm install
+```
 
-## О проекте
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-Проект сверстан по макету из Figma и использует методологию БЭМ (Блок, Элемент, Модификатор) для организации CSS-кода. Также в проекте применяются псевдоклассы и псевдоэлементы для улучшения стилизации и интерактивности элементов.
-Ссылка на макет: https://www.figma.com/design/e1bd8OpZx7wzmqUaxPrQQ9/Novosti_Kultury?node-id=0-4&t=L1bEwK9gWidfal7x-0
+### Compiles and minifies for production
+```
+npm run build
+```
 
-### Основные файлы
+### Lints and fixes files
+```
+npm run lint
+```
 
-- `index.html`: Основной HTML файл, содержащий структуру веб-страницы.
-- `styles/reset.css`: CSS файл для сброса стандартных стилей браузера.
-- `styles/header_styles.css`: CSS файл для стилизации шапки страницы.
-- `styles/main_styles.css`: CSS файл для стилизации основного содержимого страницы.
-- `styles/footer_styles.css`: CSS файл для стилизации подвала страницы.
-
-### Подключаемые шрифты
-
-В проекте используются шрифты с Google Fonts:
-- [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)
-- [Roboto](https://fonts.google.com/specimen/Roboto)
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
